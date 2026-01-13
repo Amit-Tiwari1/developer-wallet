@@ -77,7 +77,7 @@ const Input = ({
   return (
     <div className="flex flex-col gap-1 w-full">
       {label && (
-        <label htmlFor={id} className="text-sm text-zinc-400">
+        <label htmlFor={id} className="text-sm text-zinc-400 capitalize">
           {label}
           {isRequired && <span className="text-red-500 ml-1">*</span>}
         </label>
@@ -124,7 +124,7 @@ const Input = ({
             className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-400 hover:text-white transition"
           >
             {isPassword ? (
-              showPassword ? <IoEyeOff size={18} /> : <IoEye size={18} />
+              showPassword ? <IoEyeOff size={20} /> : <IoEye size={20} />
             ) : (
               icon
             )}

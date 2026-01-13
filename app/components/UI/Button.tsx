@@ -46,7 +46,7 @@ export default function Button({
       disabled={isDisabled}
       onClick={onclick}
       className={`
-        inline-flex items-center justify-center gap-2
+        inline-flex items-center justify-center gap-2 cursor-pointer
         font-medium transition-all outline-none
         focus:ring-2 focus:ring-offset-2 focus:ring-offset-black
         ${buttonSizeClasses[size]}

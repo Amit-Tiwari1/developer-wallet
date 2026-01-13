@@ -6,7 +6,7 @@ import {
   colorClasses,
   errorClasses,
   disabledClasses,
-} from "./inputStyles";
+} from "./ComponentStyles";
 import { IoEye, IoEyeOff } from "react-icons/io5";
 
 interface InputProps {
